@@ -1,0 +1,100 @@
+.question-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 80%;
+    padding-top: 1rem;
+}
+
+label {
+    margin-bottom: 0.3rem;
+}
+
+select,
+input {
+    width: 60%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4dda75;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+button:hover {
+    background-image: linear-gradient(to top, #9671db 0%, #00afa7 100%);
+}
+
+.question-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.question {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: left;
+
+}
+
+.question div {
+    width: 85%;
+    height: 100%;
+}
+
+.question-container textarea {
+    width: 100%;
+
+}
+
+.level-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.levels {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: left;
+}
+
+.level {
+    width: 88%;
+}
+
+.level section {
+    width: 100%;
+}
+
+.question-options {
+    margin: 2px;
+}
+
+.options-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    margin: 2px;
+
+}

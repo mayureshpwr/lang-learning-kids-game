@@ -1,0 +1,41 @@
+.add-home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #DBE1FF;
+}
+
+.add {
+    width: 60vw;
+    height: 100vh;
+    background-color:wheat;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+
+
+
+.add-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.add-questions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width:769px) {
+    .add {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .add-questions {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}

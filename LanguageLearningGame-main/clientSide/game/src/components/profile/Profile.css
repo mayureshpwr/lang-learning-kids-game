@@ -1,0 +1,65 @@
+.profile-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #DBE1FF;
+}
+
+.profile {
+    width: 60vw;
+    height: 100vh;
+    background-color: wheat;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.profile-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.score-disply {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.circle {
+    width: 30%;
+    height: 10vh;
+    background-color: rgb(144, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Center vertically */
+    text-align: center;
+    margin: auto;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    /* Circular shape */
+}
+
+.circle h2 {
+    font-size: xx-large;
+}
+
+/* ... (other styles) */
+@media screen and (max-width:769px) {
+    .profile {
+        width: 100vw;
+    }
+
+    img {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .score-disply {
+        margin-top: 1rem;
+    }
+}

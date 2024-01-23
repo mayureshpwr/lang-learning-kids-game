@@ -1,0 +1,81 @@
+.test-home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #DBE1FF;
+}
+
+.test {
+    width: 60vw;
+    height: 100vh;
+    background-color: wheat;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+
+.test-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* questions styling */
+
+
+.ques-option {
+    
+    margin-bottom: 10px;
+    display: flex;
+    /* Use flexbox to align items horizontally */
+    align-items: center;
+    /* Align items vertically in the center */
+}
+
+.choose-option {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.ques-option label {
+    font-size: 14px;
+    margin-left: 5px;
+    /* Add margin to the left of the label */
+}
+
+@media screen and (max-width: 769px) {
+    .test {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .ques-option {
+        display: block;
+        /* Switch to block layout for smaller screens */
+        text-align: left;
+        /* Align text to the left within the block */
+    }
+
+    .choose-option {
+        margin-right: 0;
+        /* Remove margin for radio button */
+        margin-bottom: 5px;
+        /* Add margin below each option for spacing */
+    }
+
+    .ques-option label {
+        margin-left: 0;
+        /* Remove margin for label */
+    }
+}

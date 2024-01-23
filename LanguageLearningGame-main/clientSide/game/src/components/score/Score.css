@@ -1,0 +1,62 @@
+.score-home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #DBE1FF;
+    overflow: hidden;
+}
+
+.score {
+    width: 60vw;
+    height: 100vh;
+    background-color: wheat;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+
+
+.score-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: rgb(80, 182, 255);
+}
+
+@media screen and (max-width:769px) {
+    .score {
+        width: 100%;
+    }
+
+    .score-board {
+        width: 100%;
+    }
+
+    th,
+    td {
+        padding: 5px;
+    }
+
+}
